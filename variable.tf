@@ -11,7 +11,33 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
+# variable ressource group
+variable "storage_account_name"{
+  type=string
+  default="mcitoctstorage"
+}
+variable "resource_group_name"{
+  type=string
+  default="mcitrgnicolas"
+}
+variable "location"{
+  type=string
+  default="canadacentral"
+}
+variable "account_tier"{
+  type=string
+  default="Standard"
+}
+variable "account_replication_type" {
+  type=string
+  default="GRS"
+}
+variable "environment"{
+  type=string
+  default="staging"
+}
 
+# -------------------
 # Variables for lookup practice
 # -------------------
 variable "env_settings" {
