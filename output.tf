@@ -1,6 +1,6 @@
 # -------------------
 # MCIT Lookup Exercises (code)
-# -------------------
+
  
 # MCIT Lookup Exercise 1: Fetch instance type for 'dev'
 output "env_dev_instance" {
